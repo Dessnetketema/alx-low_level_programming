@@ -19,7 +19,6 @@ unsigned int binary_to_uint(const char *b)
 	{
 		num <<= 1;
 		num += b[len] - '0';
-			
 		len++;
 	}
 
